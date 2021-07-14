@@ -1,0 +1,16 @@
+.footer_name{
+    color: red;
+    text-align: j;
+   
+}
+
+
+.footer_container{
+    border: royalblue 3px solid;
+    background-color: slateblue;
+    display: flex;
+}
+.footer_info{
+    flex-wrap: wrap;
+    color: lightpink;
+}
