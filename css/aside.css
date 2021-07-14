@@ -1,0 +1,17 @@
+@import "aside.css";
+
+
+main{
+    display: flex;
+    flex:3
+}
+.left--content{
+    flex:3;
+    flex-wrap: wrap;
+}
+aside{
+    flex:1;
+}
+h2{
+    color: red
+}
