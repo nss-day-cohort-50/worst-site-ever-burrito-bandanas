@@ -12,3 +12,10 @@ main{
 aside{
     flex:1;
 }
+.courses{
+    padding-top:2rem;
+}
+
+aside h2{
+    padding-top: 2rem;
+}
