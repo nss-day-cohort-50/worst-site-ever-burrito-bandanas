@@ -1,6 +1,13 @@
 @import url("./navbar.css");
 @import url("./instructors.css");
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 .container {
     display: flex;
@@ -9,3 +16,5 @@
 .container-left {
     flex: 3;
 }
+
+

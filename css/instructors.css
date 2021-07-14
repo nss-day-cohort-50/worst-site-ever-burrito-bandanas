@@ -1,4 +1,11 @@
 
+h2 {
+    font-family: impact;
+    font-size: 3rem;
+    animation: color-change 1s infinite;
+    text-align: center;
+}
+
 
 section {
     display: flex;
