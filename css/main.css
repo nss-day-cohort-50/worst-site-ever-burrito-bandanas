@@ -1,0 +1,11 @@
+@import url("./navbar.css");
+@import url("./instructors.css");
+
+
+.container {
+    display: flex;
+}
+
+.container-left {
+    flex: 3;
+}

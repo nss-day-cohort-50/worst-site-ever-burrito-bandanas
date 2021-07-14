@@ -1,0 +1,12 @@
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.instructor {
+    margin: 0.5rem 1rem;
+    flex-basis: 25%;
+}
