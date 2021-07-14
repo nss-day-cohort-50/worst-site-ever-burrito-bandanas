@@ -1,16 +1,29 @@
 .footer_name{
     color: red;
-    text-align: j;
-   
+    display: flex;
+    font-size: 2rem;
 }
-
 
 .footer_container{
     border: royalblue 3px solid;
     background-color: slateblue;
     display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer_container a {
+    font-family: sans-serif;
+    text-decoration: none;
 }
 .footer_info{
     flex-wrap: wrap;
     color: lightpink;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_info p {
+    display: flex;
+    flex-direction: column;
 }
