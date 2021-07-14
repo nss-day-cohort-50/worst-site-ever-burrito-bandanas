@@ -1,4 +1,4 @@
-@import "aside.css";
+@import url("aside.css");
 
 
 main{
@@ -11,7 +11,4 @@ main{
 }
 aside{
     flex:1;
-}
-h2{
-    color: red
 }
