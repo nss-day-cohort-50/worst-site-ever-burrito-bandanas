@@ -1,5 +1,7 @@
 @import url("./navbar.css");
 @import url("./instructors.css");
+@import url("./aside.css");
+
 
 * {
     box-sizing: border-box;
