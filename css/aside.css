@@ -1,4 +1,4 @@
-@import url("aside.css");
+
 
 main{
     display: flex;
@@ -10,4 +10,16 @@ main{
 }
 aside{
     flex:1;
+}
+.courses{
+    padding-top:0.5rem;
+    margin-right:1rem;
+    margin-bottom: 1rem;
+
+}
+
+aside h2{
+    padding-top: 2rem;
+    padding-bottom:1rem;
+    margin-bottom: 1rem;
 }
