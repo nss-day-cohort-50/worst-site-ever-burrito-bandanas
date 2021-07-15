@@ -1,8 +1,31 @@
+@keyframes backgroundColorPalette {
+    0% {
+      background: #ee6055;
+    }
+    25% {
+      background: #60d394;
+    }
+    50% {
+      background: #aaf683;
+    }
+    75% {
+      background: #ffd97d;
+    }
+    100% {
+      background: #ff9b85;
+    }
+  }
+
 .nav__header {
     display: flex;
     background-color: blue;
     justify-content: space-between;
     align-items: center;
+    animation-name: backgroundColorPalette;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
 }
 
 .logo__image img {
@@ -41,8 +64,7 @@
 }
 
 .navbar__links a:hover {
-    border-style: solid;
-    border-top: 2px;
+    border-bottom: solid;
 }
 
 
