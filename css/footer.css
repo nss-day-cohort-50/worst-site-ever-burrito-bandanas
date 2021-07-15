@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .footer_info{
     flex-wrap: wrap;
@@ -36,3 +37,17 @@
 .footer_info p {
     display: flex;
 }
+ .comp_image1 img{
+     display: flex;
+     max-width: 10em;
+ }
+
+ .footer_content img{
+     pad: 10px;
+ }
+
+ .comp_image2 img{
+    display: flex;
+    max-width: 10em;
+    
+ }
