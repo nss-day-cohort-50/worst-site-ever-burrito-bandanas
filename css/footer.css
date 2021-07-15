@@ -15,15 +15,24 @@
 .footer_container a {
     font-family: sans-serif;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer_info{
     flex-wrap: wrap;
     color: lightpink;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .footer_info p {
     display: flex;
-    flex-direction: column;
 }
