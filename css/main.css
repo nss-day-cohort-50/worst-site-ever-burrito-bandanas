@@ -19,4 +19,8 @@
     flex: 3;
 }
 
-
+.steve_pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
